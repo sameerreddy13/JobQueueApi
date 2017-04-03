@@ -69,7 +69,7 @@ router.delete('/:id', (req, res) => {
     if (req.params.id) {
         return Job.findByIdAndRemove(req.params.id, (err, job) => {
             let response = {
-                "status" : "removed"
+                "status" : "removed",
                 "URL" : job.url ? job.url : "none",
                 "ID"  : job.id ? job.id : "none"
             };
