@@ -31,11 +31,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // set routes
 var jobs = require('./routes/jobs');
-var jobsID = require('./routes/jobsID');
 var home = require('./routes/home');
 app.use('/', home);
 app.use('/jobs', jobs);
-app.use('/jobs/:id', jobsID);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
