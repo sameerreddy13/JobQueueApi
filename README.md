@@ -17,6 +17,7 @@ $ npm install
 # API Docs
 
 Create a new job with a post request:
+
 POST /jobs with url data
 ```
 curl -X POST localhost:3000/jobs -d 'url=https://google.com'
@@ -29,7 +30,9 @@ Sucessful response:
 
 ```
 
+
 Get all jobs:
+
 GET /jobs
 ```
 curl localhost:3000/jobs
@@ -65,7 +68,9 @@ Successful response:
 }
 ```
 
+
 Get an individual job through id param:
+
 GET /jobs/:id
 ```
 curl localhost:3000/jobs/58asd49018ffb91232e393c1
@@ -81,7 +86,9 @@ Successful response:
 }
 ```
 
+
 Delete an individual job through id param:
+
 DELETE /api/v1/:id 
 ```
  curl -X DELETE localhost:3000/jobs/58asd49018ffb91232e393c1
