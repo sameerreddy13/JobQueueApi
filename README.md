@@ -19,7 +19,7 @@ $ npm install
 Create a new job with a post request:
 POST /jobs with url data
 ```
-curl -X POST localhost:3000/ -d 'url=https://google.com'
+curl -X POST localhost:3000/jobs -d 'url=https://google.com'
 ```
 Sucessful response:
 ```
