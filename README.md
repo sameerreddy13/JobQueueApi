@@ -10,7 +10,7 @@ Installation
 Run these commands from the terminal:
 ```
 $ git clone https://github.com/michaelserna/REST-API-Job-Queue.git
-$ cd REST-API-Job-Queue
+$ cd JobQueueApi
 $ npm install
 ```
 
